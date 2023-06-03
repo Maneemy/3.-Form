@@ -3,17 +3,17 @@
 body {width: auto; background-image: url(/imgs/324-3245387_writing-png.png); background-repeat:no-repeat; background-size:cover; background-attachment: fixed; background-position: center center;}
 
 .enquiry, .form {width: 85%; margin: auto;}
-.form {background-color: rgba(86, 145, 204, 0.404); color: rgb(243, 30, 66); font-weight: 600; font-size: large; font-style: oblique; font-family: 'Times New Roman', Times, serif; border-radius: 1%; padding: 15px;} 
+.form {background-color: rgba(86, 145, 204, 0.247); color: rgb(61, 25, 25); font-weight: 600; font-size: large; font-style: oblique; font-family: 'Times New Roman', Times, serif; border-radius: 1%; padding: 15px;} 
 
 ::placeholder {color: rgba(0, 0, 0, 0.45); font-family: 'Times New Roman', Times, serif; font-size: 15px;}
 .option {font-family: 'Times New Roman', Times, serif; color: rgba(0, 0, 0,); font-size: 12px;}
 fieldset {text-align: justify; border-radius: 5px; border-style:inset; margin: 0px 10px;}
 
-h1 {text-align: center; font-size: 35px; font-style: italic; font-family: cursive; color: chocolate;}
-.description { color:rgb(13, 13, 14); font-size: 20px; font-style: italic; margin: 10px 50px;}
+h1 {text-align: center; font-weight: bold; font-size: 35px; font-style: italic; font-family: cursive; color: chocolate; padding-top: 20px;}
+.description { color:rgb(13, 13, 14); font-size: 20px; font-style: italic; margin: 10px 50px; text-align: justify;}
 
 .encarregados {display:block;}
-.name, .email, .mobile, .parentesco, .city {display: block; padding:10px 5px; margin: 2px 0px;}
+.name, .email, .mobile, .parentesco, .city {display: block; padding: 10px 5px; margin: 2px 0px;}
 .responsible-input {display:block; width: 30vw; padding-top:10px 5px;}
 
 .kidname {display:block; margin-bottom: 5px;}
@@ -33,8 +33,8 @@ h1 {text-align: center; font-size: 35px; font-style: italic; font-family: cursiv
 
 .opinion-div {margin-top: 10px;}
 .opinion-label{display: inline; margin-bottom: 10px;} 
-.opinion-input{display: block; margin-top: 10px; width: 27vw; height: 7vw;}
+.opinion-input{display: block; margin-top: 10px; width: 30vw; height: 10vw;}
 
 .submit {margin: auto; display: block; margin-top: 10px; margin-bottom:10px; font-family: 'Times New Roman', Times, serif; font-size: 15px; border-width: 1px; border-radius: 2px;}
 
-.signature {margin:15px 0px; text-align: center; color: rgb(228, 107, 20); font-size: 15px;}
+.signature {margin:15px 0px; text-align: center; color: rgb(53, 24, 3); font-size: 15px;}
