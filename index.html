@@ -10,7 +10,7 @@
   <body>
     <div class="enquiry">
       <h1 id="title">Inquérito de Avaliação do nível de Satisfação dos clientes</h1>
-      <p id="description">Caro encarregado de educação, a sua opinião é de extrema relevância para nós. Com vista aprimorar os nossos produtos, pedimos alguns minutos do seu tempo para responder ao nosso breve inquérito.</p>
+      <p id="description" class="description">Caro encarregado de educação, a sua opinião é de extrema relevância para nós. Com vista aprimorar os nossos produtos, pedimos alguns minutos do seu tempo para responder ao nosso breve inquérito.</p>
     </div>
     
     <form class="form" id="survey-form">
@@ -20,33 +20,33 @@
         <label class="mobile" id="mobile-label" for="mobile">Telefone: <input class="responsible-input" id="mobile" name="cellphone" type="tel" placeholder="+258-8X-123-4567" pattern="[0-9]{2}-[0-9]{3}-[0-9]{4}"></label>
       
         <label class="parentesco" for="parentesco">Grau de parentesco: <select class="responsible-input" id="parentesco">
-          <option>(Seleccione uma opção)</option>
-          <option>Pai/Mãe</option>
-          <option>Tio/Tia</option>
-          <option>Avô/Avó</option>
-          <option>Irmão/Irmã</option>
-          <option>Sobrinho/Sobrinha</option>
-          <option>Primo/Prima</option>
-          <option>Cunhado/Cunhada</option>
-          <option>Amigo/Amiga</option>
-          <option>Padrinho/Madrinha</option>
-          <option>Outro</option>
+          <option class="option">(Seleccione uma opção)</option>
+          <option class="option">Pai/Mãe</option>
+          <option class="option">Tio/Tia</option>
+          <option class="option">Avô/Avó</option>
+          <option class="option">Irmão/Irmã</option>
+          <option class="option">Sobrinho/Sobrinha</option>
+          <option class="option">Primo/Prima</option>
+          <option class="option">Cunhado/Cunhada</option>
+          <option class="option">Amigo/Amiga</option>
+          <option class="option">Padrinho/Madrinha</option>
+          <option class="option">Outro</option>
           </select>
           </label>
 
-        <label class="city" for="city">Localizacao: <select class="responsible-input" id="cidade" name="city" placeholder=>
-          <option>(Seleccione uma opção)</option>
-          <option>Maputo Cidade</option>
-          <option>Maputo Província</option>
-          <option>Gaza</option>
-          <option>Inhambane</option>
-          <option>Manica</option>
-          <option>Sofala</option>
-          <option>Tete</option>
-          <option>Zambezia</option>
-          <option>Nampula</option>
-          <option>Niassa</option>
-          <option>Cabo Delgado</option>
+        <label class="city" for="city">Localização: <select class="responsible-input" id="cidade" name="city" placeholder=>
+          <option class="option">(Seleccione uma opção)</option>
+          <option class="option">Maputo Cidade</option>
+          <option class="option">Maputo Província</option>
+          <option class="option">Gaza</option>
+          <option class="option">Inhambane</option>
+          <option class="option">Manica</option>
+          <option class="option">Sofala</option>
+          <option class="option">Tete</option>
+          <option class="option">Zambezia</option>
+          <option class="option">Nampula</option>
+          <option class="option">Niassa</option>
+          <option class="option">Cabo Delgado</option>
           </select>
         </label>
       </div>
@@ -54,7 +54,7 @@
       <div class='p-educandos'>
         <div>
           <label class="kidname" for="name">Nome e idade do educando:</label>
-          <input class="kid-input" type="text" id="name" placeholder="Nome completo da criança"><input class="kidage-input" placeholder="Idade" type="number" id="age" min="5" max="14"><label>Anos</label>
+          <input class="kid-input" type="text" id="name" placeholder="Nome completo da criança" required><input class="kidage-input" placeholder="Idade" type="number" id="age" min="5" max="14" required><label>Anos</label>
         </div>
         <br>
        
@@ -146,7 +146,7 @@
 
       <div class="opinion-div">
         <label class="opinion-label" for="textarea">Deixe-nos as suas críticas e sugestões no campo abaixo.</label>
-            <textarea class="opinion-input" id="textarea" name="your-opinion" placeholder="Comentarios" rows="4" cols="50" ></textarea>
+            <textarea class="opinion-input" id="textarea" name="your-opinion" placeholder="Escreva seus comentários aqui..."></textarea>
       </div>
 
       <input class="submit" id="submit" type="submit" value="Submeter Inquérito">
@@ -155,7 +155,7 @@
     </div>
     </form>
     
-    <footer class="signature">Developed by: <a target="_blank" href="https://github.com/Maneemy">Emerson Mandlate</a>
+    <footer class="signature"> <strong>Developed by:</strong> <a target="_blank" href="https://github.com/Maneemy">Emerson Mandlate</a>
     <p>May - 2023</p>
     </footer>
 

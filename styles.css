@@ -3,18 +3,18 @@
 body {width: auto; background-image: url(/imgs/324-3245387_writing-png.png); background-repeat:no-repeat; background-size:cover; background-attachment: fixed; background-position: center center;}
 
 .enquiry, .form {width: 85%; margin: auto;}
-.form {background-color: rgba(92, 143, 194, 0.521); color: rgba(180, 23, 49, 0.966); font-weight: 600; font-size: large; font-style: oblique; font-family: cursive; border-radius: 1%;} 
+.form {background-color: rgba(86, 145, 204, 0.404); color: rgb(243, 30, 66); font-weight: 600; font-size: large; font-style: oblique; font-family: 'Times New Roman', Times, serif; border-radius: 1%; padding: 15px;} 
 
+::placeholder {color: rgba(0, 0, 0, 0.45); font-family: 'Times New Roman', Times, serif; font-size: 15px;}
+.option {font-family: 'Times New Roman', Times, serif; color: rgba(0, 0, 0,); font-size: 12px;}
 fieldset {text-align: justify; border-radius: 5px; border-style:inset; margin: 0px 10px;}
 
-.enquiry, .signature {text-align: center; margin-top: 5px;}
-.enquiry {padding-bottom: 5px; text-align:justify;}
-h1 {text-align: center;}
-h2 {margin-bottom:5px;}
+h1 {text-align: center; font-size: 35px; font-style: italic; font-family: cursive; color: chocolate;}
+.description { color:rgb(13, 13, 14); font-size: 20px; font-style: italic; margin: 10px 50px;}
 
 .encarregados {display:block;}
-.name, .email, .mobile, .parentesco, .city {display: block; padding:5px 5px;}
-.responsible-input {display:block; width: 30vw;}
+.name, .email, .mobile, .parentesco, .city {display: block; padding:10px 5px; margin: 2px 0px;}
+.responsible-input {display:block; width: 30vw; padding-top:10px 5px;}
 
 .kidname {display:block; margin-bottom: 5px;}
 .kid-input, .kidage-input{display: inline-block; margin:0px 5px;}
@@ -25,14 +25,16 @@ h2 {margin-bottom:5px;}
 
 
 .social-div{margin-bottom: 5px;}
-.social-input, .social-label{display: inline-block;}
+.social-input, .social-label{display: inline-block; padding: 5px 0px;}
 
 
 .improvement-div {margin-bottom: 5px; padding-bottom: 10px;}
-.improvement-label, .improvement-input {display: inline-block; padding-bottom: 10px;}
+.improvement-label, .improvement-input {display: inline-block; padding:7px 0px;}
 
 .opinion-div {margin-top: 10px;}
 .opinion-label{display: inline; margin-bottom: 10px;} 
-.opinion-input{display: block; margin-top: 10px;}
+.opinion-input{display: block; margin-top: 10px; width: 27vw; height: 7vw;}
 
-.submit {margin: auto; display: block; margin-top: 10px; margin-bottom:10px;}
+.submit {margin: auto; display: block; margin-top: 10px; margin-bottom:10px; font-family: 'Times New Roman', Times, serif; font-size: 15px; border-width: 1px; border-radius: 2px;}
+
+.signature {margin:15px 0px; text-align: center; color: rgb(228, 107, 20); font-size: 15px;}
