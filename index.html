@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport", content="width=device-width", initial-scale="1.0">
+    <title>Survey Form - Letra Cursiva</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div class="enquiry">
+      <h1 id="title">Inquérito de Avaliação do nível de Satisfação dos clientes</h1>
+      <p id="description">Caro encarregado de educação, a sua opinião é de extrema relevância para nós. Com vista aprimorar os nossos produtos, pedimos alguns minutos do seu tempo para responder ao nosso breve inquérito.</p>
+    </div>
+
+    <form class="form" id="survey-form">
+    <div class="supreme">
+      <div class="p-encarregados">
+         <label class="name" id="name-label" for="name">Nome do encarregado:<input class="responsible-input" placeholder="Escreva seu nome completo" type="text" id="name" required></label>
+        <label class="email" id="email-label" for="email">Correio electrónico: <input class="responsible-input" placeholder="Escreva seu email" type="email" id="email" required></label>
+        <label class="mobile" id="mobile-label" for="mobile">Telefone: <input class="responsible-input" id="mobile" name="cellphone" type="tel" placeholder="+258-8X-123-4567" pattern="[0-9]{2}-[0-9]{3}-[0-9]{4}"></label>
+      
+
+        <label class="parentesco" for="parentesco">Grau de parentesco: <select class="responsible-input" id="parentesco">
+          <option>(Seleccione uma opção)</option>
+          <option>Pai/Mãe</option>
+          <option>Tio/Tia</option>
+          <option>Avô/Avó</option>
+          <option>Irmão/Irmã</option>
+          <option>Sobrinho/Sobrinha</option>
+          <option>Primo/Prima</option>
+          <option>Cunhado/Cunhada</option>
+          <option>Amigo/Amiga</option>
+          <option>Padrinho/Madrinha</option>
+          <option>Outro</option>
+          </select>
+          </label>
+
+        <label class="city" for="city">Localizacao: <select class="responsible-input" id="cidade" name="city" placeholder=>
+          <option>(Seleccione uma opção)</option>
+          <option>Maputo Cidade</option>
+          <option>Maputo Província</option>
+          <option>Gaza</option>
+          <option>Inhambane</option>
+          <option>Manica</option>
+          <option>Sofala</option>
+          <option>Tete</option>
+          <option>Zambezia</option>
+          <option>Nampula</option>
+          <option>Niassa</option>
+          <option>Cabo Delgado</option>
+          </select>
+        </label>
+      </div>
+      <br>
+      <div class='p-educandos'>
+        <div>
+          <label class="kidname" for="name">Nome e idade do educando:</label>
+          <input class="kid-input" type="text" id="name" placeholder="Nome completo da criança"><input class="kidage-input" placeholder="Idade" type="number" id="age" min="5" max="14"><label>Anos</label>
+        </div>
+        <br>
+       
+        <fieldset>
+          <legend>Género</legend>
+          <label for="gender"><input id="gender" type="radio" name="male-female" value="male"> Masculino</label>
+          <label for="gender"><input id="gender" type="radio" name="male-female" value="female"> Feminino</label>
+        </fieldset>
+        <br>
+          
+        <fieldset>
+          <legend>Grau de escolaridade</legend>
+          <label for="degree"><input id="degree" type="radio" name="multi-level" value="kinder"> 1ª a 2ª Classe </label>
+          <label for="degree"><input id="degree" type="radio" name="multi-level" value="kiddo"> 3ª a 5ª Classe</label>
+          <label for="degree"><input id="degree" type="radio" name="multi-level" value="grown"> 6ª a 8ª Classe</label>
+        </fieldset>
+        <br>
+      </div>
+      
+
+      <div class="evaluation">
+        <fieldset class="quality-field">
+          <legend>Qual é a sua clasificação em relação a qualidade dos cadernos?</legend>
+          <label for="quality"><input type="radio" id="excellent" name="good-bad" value="excellent"> Excelente</label>
+          <label for="quality"><input type="radio" id="good" name="good-bad" value="good">Boa</label>
+          <label for="quality"><input type="radio" id="sufficient" name="good-bad" value="sufficient"> Suficiente</label>
+          <label for="quality"><input type="radio" id="mediocre" name="good-bad" value="mediocre"> Medíocre</label>
+          <label for="quality"><input type="radio" id="terrible" name="good-bad" value="terrible"> Péssimo</label>
+        </fieldset>
+        <br>         
+      
+        <fieldset class="efficacy-field">
+          <legend>De 0 a 20 como avalia a eficácia dos cadernos na melhoria da caligrafia do seu educando</legend>
+          <label class="efficacy" for="efficacy"><input class="efficacy-input" type="number" min="0" max="20" placeholder="Sua avaliação" id="efficacy"></label>
+        </fieldset>
+        <br>
+
+        <fieldset class="expectancy-field">
+            <legend>Os cadernos de caligrafia atenderam as suas expectativas?</legend>
+            <label for="expectancy"><input type="radio" id="expectancy" value="yes" name="yes-no"> Sim</label>
+            <label for="expectancy"><input type="radio" id="expectancy" value="no" name="yes-no"> Não</label>
+        </fieldset>
+        <br>
+
+        <fieldset class="recommendation-field">
+          <legend>Recomendaria os nossos cadernos para os seus familiares, amigos e conhecidos?</legend>
+          <label for="recommendation"><input type="radio" id="recommendation" value="yes" name="yes-no-maybe"> Sim</label>
+          <label for="recommendation"><input type="radio" id="recommendation" value="no" name="yes-no-maybe"> Não</label>
+          <label for="recommendation"><input type="radio" id="recommendation" value="maybe" name="yes-no-maybe"> Talvez</label>
+        </fieldset>
+        <br>
+       
+        <fieldset class="social-field">
+          <legend>Como teve conhecimento sobre os nossos cadernos?</legend>
+          <div class="social-div">
+            <label class="social-label" for="social"><input class="social-input" type="checkbox" id="social" name="social-media" value="whatsapp"> Pelo Whatsapp</label>
+          </div>
+          <div class="social-div">
+            <label class="social-label" for="social"><input class="social-input" type="checkbox" id="social" name="social-media" value="facebook"> Pelo Facebook</label>
+          </div>
+          <div class="social-div">
+            <label class="social-label" for="social"><input class="social-input" type="checkbox" id="social" name="social-media" value="peers"> Através de amigos/familiares</label>
+          </div>
+          <div class="social-div">
+            <label class="social-label" for="social"><input class="social-input" type="checkbox" id="social" name="social-media" value="gossip"> Em conversas casuais (na rua)</label>
+          </div>
+          <div class="social-div">
+            <label class="social-label" for="social"><input class="social-input" type="checkbox" id="social" name="social-media" value="other"> Em outros forúns</label>   
+          </div>
+        </fieldset>      
+        <br>
+
+        <fieldset class="improvements-field">
+          <legend>O que gostaria que fosse melhorado nos cadernos?</legend>
+          <div class="improvements-div">
+            <label for="improvement-label"><input class="improvement-input" type="checkbox" id="improvement" name="things-to-do" value="covers"> Capas mais coloridas</label>
+          </div>
+          <div class="improvements-div">
+            <label class="improvement-label" for="improvement"><input class="improvement-input" type="checkbox" id="improvement" name="things-to-do" value="interaction"> Cadernos mais interactivos</label>
+          </div>
+          <div class="improvements-div">
+            <label class="improvement-label" for="improvement"><input class="improvement-input" type="checkbox" id="improvement" name="things-to-do" value="paintings"> Mais figuras para pintar</label>
+          </div>
+          <div class="improvements-div">
+            <label class="improvement-label" for="improvement"><input class="improvement-input" type="checkbox" id="improvement" name="things-to-do" value="time"> Menor tempo de entrega dos cadernos</label>
+          </div>
+        </fieldset>
+      </div>
+
+      <div class="opinion-div">
+        <label class="opinion-label" for="textarea">Deixe-nos as suas críticas e sugestões no campo abaixo.</label>
+            <textarea class="opinion-input" id="textarea" name="your-opinion" placeholder="Comentarios" rows="4" cols="50" ></textarea>
+      </div>
+
+        <input class="submit" id="submit" type="submit" value="Submeter Inquérito">
+
+      </div>
+    </div>
+    </form>
+    
+    <footer class="signature">Developed by: <a target="_blank" href="https://github.com/Maneemy">Emerson Mandlate</a>
+    <p>May - 2023</p>
+    </footer>
+
+  </body>
+</html>  
