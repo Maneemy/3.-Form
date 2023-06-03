@@ -1,13 +1,16 @@
-body {background-color: rgba(190, 143, 143, 0.562); width: 80%; margin: auto;}
+/*Form personalization*/
 
-.enquiry, .form, .signature {width: 50vw; margin: auto;}
+body {width: auto; background-image: url(/imgs/324-3245387_writing-png.png); background-repeat:no-repeat; background-size:cover; background-attachment: fixed; background-position: center center;}
+
+.enquiry, .form {width: 85%; margin: auto;}
+.form {background-color: rgba(92, 143, 194, 0.521); color: rgba(180, 23, 49, 0.966); font-weight: 600; font-size: large; font-style: oblique; font-family: cursive; border-radius: 1%;} 
+
+fieldset {text-align: justify; border-radius: 5px; border-style:inset; margin: 0px 10px;}
+
 .enquiry, .signature {text-align: center; margin-top: 5px;}
-.form {padding: 5px 5px; background-color:blanchedalmond;}
 .enquiry {padding-bottom: 5px; text-align:justify;}
 h1 {text-align: center;}
 h2 {margin-bottom:5px;}
-
-fieldset {text-align: justify; border-radius: 5px; border-style:inset;}
 
 .encarregados {display:block;}
 .name, .email, .mobile, .parentesco, .city {display: block; padding:5px 5px;}
@@ -20,11 +23,11 @@ fieldset {text-align: justify; border-radius: 5px; border-style:inset;}
 .efficacy {display: block;}
 .efficacy-input {width: 15vw; display: block;}
 
-.social-field{}
+
 .social-div{margin-bottom: 5px;}
 .social-input, .social-label{display: inline-block;}
 
-.improvement-field{}
+
 .improvement-div {margin-bottom: 5px; padding-bottom: 10px;}
 .improvement-label, .improvement-input {display: inline-block; padding-bottom: 10px;}
 
